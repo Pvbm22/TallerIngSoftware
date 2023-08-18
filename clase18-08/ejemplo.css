@@ -1,0 +1,84 @@
+.border{
+
+    display: block;
+    width: 500px;
+    height: 100px;
+    color: black;
+    border: 1px solid;
+    
+}
+
+.foto{
+    margin-left: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 100px;
+    border: 1px solid;
+    width: 50px;
+    height: 50px;
+
+}
+
+.img{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+
+
+}
+
+.blocknombretext{
+
+    display: inline-block;
+    /* border: 1px solid; */
+    width: 350px;
+    height: 50px;
+
+}
+
+
+.nombre{
+
+    display: inline-block;
+    border: 1px solid;
+    
+    width: 350px;
+    height: 20px;
+    font-size: 20px;
+}
+
+.texto{
+
+    display: inline-block;
+    border: 1px solid;
+   
+    width: 350px;
+    height: 20px;
+    margin-top: 20px;
+    font-size: 10px;
+    
+}
+
+.blockdia{
+
+    display: inline;
+    border: 1px solid;
+    margin-top: 100px;
+    width: 50px;
+    height: 50px;
+    
+
+}
+
+.dia{
+
+    display: inline;
+    border: 1px solid;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 30px;
+    font-size: 7px;
+    
+
+}
