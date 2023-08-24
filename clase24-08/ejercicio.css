@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+}
+
+
+.principal{
+
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+nav{
+
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    opacity: 70%;
+    position: fixed;
+ 
+}
+
+.iconos{
+    color: white;
+    position: fixed;
+    right: 0;
+}
+
+a{
+
+
+    text-align: right;
+
+
+}
+
+.caratula{
+
+    display: inline;
+    width: auto;
+    height: 100%;
+    
+}
+
+img{
+
+    width: 100%;
+
+}
+
+
+.nombrecancion{
+
+    display: block;
+    background-color: rgb(82, 82, 82);
+    width: 100%;
+    height: 30%;
+    color: wheat;
+    text-align: left;
+    text-indent: 20px;
+    padding-top: 40px;
+    position: absolute;
+}
+
+
+
+
+.aleatorio{
+
+
+
+
+}
