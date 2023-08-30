@@ -12,10 +12,9 @@
 
 }
 
-nav{
+.icon{
 
     display: block;
-    position: absolute;
     width: 100%;
     height: 30px;
     background-color: black;
@@ -24,54 +23,72 @@ nav{
  
 }
 
-.iconos{
-    color: white;
-    position: fixed;
+
+.iconos {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
     right: 0;
 }
 
+.nowpla{
+
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 30px;
+
+}
+
+
 a{
 
-
+    
     text-align: right;
 
 
 }
 
-.caratula{
+.aleatorio{
+    color: white;
+    position: absolute;
+    top: 80%; 
+    left: 90%; 
+    background-color: rgb(179, 0, 250);
+    border-radius: 100%;
+    z-index: 2;
+}
 
-    display: inline;
+
+
+.caratula {
+    display: block;
     width: auto;
-    height: 100%;
-    
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 0; 
+    position: relative; 
 }
 
 img{
 
     width: 100%;
+    height: 100%;
 
 }
 
 
-.nombrecancion{
 
+.nombrecancion {
     display: block;
     background-color: rgb(82, 82, 82);
     width: 100%;
-    height: 30%;
+    height: auto;
     color: wheat;
     text-align: left;
     text-indent: 20px;
     padding-top: 40px;
-    position: absolute;
-}
-
-
-
-
-.aleatorio{
-
-
-
-
+    padding-bottom: 20px;
+    margin-top: -4px; 
+    position: relative;
 }
