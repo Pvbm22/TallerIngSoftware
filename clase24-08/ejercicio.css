@@ -50,13 +50,18 @@ a{
 }
 
 .aleatorio{
+    display: grid;
+    height: 50px;
+    width: 50px;
     color: white;
     position: absolute;
-    top: 80%; 
-    left: 90%; 
+    margin-left: 85%;
+    margin-bottom: 20%;
+    place-content: center;
     background-color: rgb(179, 0, 250);
-    border-radius: 100%;
+    border-radius: 90%;
     z-index: 2;
+    margin-top: -30px;
 }
 
 
@@ -90,5 +95,5 @@ img{
     padding-top: 40px;
     padding-bottom: 20px;
     margin-top: -4px; 
-    position: relative;
+    position: absolute;
 }
