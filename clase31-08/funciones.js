@@ -14,3 +14,12 @@ function reset(){
 
 
 }
+
+
+function rotate(value){
+document.getElementById('caja2').style.webkitTransform="rotate(" + value + "deg)";
+document.getElementById('caja2').style.msTransform="rotate(" + value + "deg)";
+document.getElementById('caja2').style.transform="rotate(" + value + "deg)";
+}
+
+
