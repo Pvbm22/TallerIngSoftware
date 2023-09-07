@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+
+
+.barrasup{
+
+    height: 10%;
+    width: auto;
+    text-indent: 15%;
+    background-color: #fdc9d1;
+    font-size: 13px;
+}
+
+
+
+
+.logoucsc{
+    display: block;
+    left: 15%;
+    margin-left: 200px;
+}
+
+.logo{
+
+    display: block;
+    position: inherit;
+    width: 300px;
+    height: 100px;
+    
+}
+
+.actualidad{
+
+    display: inline-block;
+    
+}
+
+a{
+    color: #d6092c;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.links{
+
+    display: block;
+    position:static;
+}
