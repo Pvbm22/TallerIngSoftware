@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    font-family: 'Roboto Condensed';
+}
+
+.principal {
+    width: 100%;
+    height: 100%;
+}
+
+.barrasup {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(238, 238, 238);
+}
+
+.iconos {
+
+    display: inline;
+    background-color: white;
+    width: 100%;
+}
+
+.icono1 {
+
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.icono2 {
+
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.icono3 {
+
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.cfo {
+
+    display: inline-block;
+    margin-left: 1400px;
+    margin-top: 14px;
+    text-align: center;
+}
+
+
+.regis {
+
+    display: inline;
+    background-color: rgb(105, 105, 105);
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: white;
+}
+
+.inises {
+
+    display: inline;
+    background-color: #b5121c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: white;
+}
+
+.barracinemark {
+
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.logocine {
+
+    display: inline;
+    background-color: white;
+    width: 100%;
+
+}
+
+.logocinemark {
+
+    display: inline-block;
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.ccppc {
+
+    display: inline-block;
+    margin-left: 700px;
+    color: #b5121c;
+    font-size: 20px;
+
+}
+
+.cnmkmirador {
+
+    display: inline-block;
+    margin-left: 340px;
+    background-color: black;
+    color: white;
+    width: auto;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+
+}
+
+.barrapeliculas {
+
+    display: block;
+    width: 100%;
+    height: 200px;
+    
+    background-color: rgb(238, 238, 238);
+}
+
+.peliculas {
+
+    font-size: 40px;
+    margin-left: 40px;
+    padding-top: 50px;
+
+}
+
+.vive {
+
+    font-size: 20px;
+    margin-left: 40px;
+
+
+}
+
+.carprepro {
+
+    display: block;
+    width: 100%;
+    margin-left: 200px;
+    font-size: 20px;
+    margin-top: 60px;
+    height: 100px;
+
+
+}
+
+.cartelera {
+
+    display: inline;
+    position: absolute;
+    margin-left: 300px;
+
+}
+
+.preventa {
+
+    display: inline;
+    margin-left: 700px;
+    position: absolute;
+}
+
+.proximamente {
+
+    display: inline;
+    margin-left: 1200px;
+    position: absolute;
+    margin-bottom: 1px black;
+
+}
+
+.cartelerasemanal {
+
+    display: block;
+    margin-left: 40px;
+    font-size: 30px;
+    height: 100px;
+}
+
+.fotoscartelera {
+
+    display: block;
+    width: 100%;
+
+}
+
+.cartelera1 {
+
+    margin-left: 60px;
+    width: 330px;
+    height: 450px;
+    background-color: #b5121c;
+}
+
+.cartelera2 {
+
+    margin-left: 60px;
+    width: 330px;
+    height: 450px;
+}
+
+.cartelera3 {
+    margin-left: 60px;
+    width: 330px;
+    height: 450px;
+}
+
+.cartelera4 {
+    margin-left: 60px;
+    width: 330px;
+    height: 450px;
+}
+
+.cartelera5 {
+    margin-left: 60px;
+    width: 330px;
+    height: 450px;
+}
+
+.estreno {
+
+    width: 330px;
+    margin-left: 60px;
+    background-color: #b5121c;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+}
+
+.horarios1 {
+
+    display: inline-block;
+    width: 330px;
+    margin-left: 60px;
+    background-color: #b5121c;
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}
+
+.horarios2 {
+
+    display: inline-block;
+    width: 330px;
+    background-color: #b5121c;
+    margin-left: 60px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}
+
+.horarios3 {
+
+    display: inline-block;
+    width: 330px;
+    background-color: #b5121c;
+    margin-left: 60px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}
+
+.horarios4 {
+
+    display: inline-block;
+    width: 330px;
+    background-color: #b5121c;
+    margin-left: 60px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}
+
+.horarios5 {
+
+    display: inline-block;
+    width: 330px;
+    background-color: #b5121c;
+    margin-left: 60px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}
