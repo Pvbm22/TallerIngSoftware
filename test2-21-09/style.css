@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+
+    
+
+}
+
+.principal{
+    display: block;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    padding-top: 230px;
+    padding-bottom: 283px;
+}
+
+.letra{
+
+    font-family: 'Lato', sans-serif;
+    font-size: 70px;
+
+}
+
+.letra2{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+}
+
+.letra3{
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+}
+
+
