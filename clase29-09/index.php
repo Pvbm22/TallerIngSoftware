@@ -24,7 +24,7 @@ $respuesta = mysqli_query($conexion, $consulta);
                 <form action="guardar.php" method="POST">
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1">Nombre</span>
-                        <input type="text" name="nombre" class="form-control" placeholder="Peugeot" required>
+                        <input type="text" name="nombre" class="form-control" placeholder="Peugeot"  required>
                     </div>
                     <div class="input-group mb-3">
                     <span class="input-group-text" id="basic-addon1">Origen</span>
@@ -63,6 +63,8 @@ $respuesta = mysqli_query($conexion, $consulta);
                             echo "<td>" . $row["nombre"] . "</td>";
                             echo "<td>" . $row["origen"] . "</td>";
                             echo "<td> <img src=". $row["logo"] ."></td>";
+                            echo "<td> <a value='hola' href='eliminar.php?id_enviado=" . $row["id"] . "'><button class='btn btn-sm'>Eliminar</button></a>";
+                            echo "<a value='hola' href='Editar.php?id_enviado=" . $row["id"] . "'><button class='btn btn-sm'>Editar</button></a></td>";
                             echo "</tr>";
                         }
                         ?>
